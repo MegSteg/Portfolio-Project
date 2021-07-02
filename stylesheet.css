@@ -2,7 +2,7 @@
 
 header{
     padding:10px;
-    text-align: center;
+
     size:100px;
 }
 nav{
@@ -11,19 +11,29 @@ nav{
         float: right;
       }
 }
+#info{}
+    
+}
 section{
     display:flex;
     justify-content: center;
     align-items: center;
 }
+h1{
+    text-align: center;
+    
+}
 body{
     background-image: url(background.jpg); 
+    background-position: center;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: hidden;
     padding:0;
     margin:0;
     color: white;
-    text-align: center;
 }
 form{
     opacity: 0.7;
@@ -52,9 +62,19 @@ footer{
     justify-content: center;
     align-items:center;
     flex-direction: row;
+    text-align: center;
 }
-section{
-    align-items:flex-end;
+.info{
+    align-content:center;
+    border-color: black;
+    border-style:double;
+    width: 600px;
+    height: 230px;
+    display:flex;
+    padding: 10px;
+    font-size: small;
+
+    
 }
 .sociallink{
     background-color:white;
@@ -65,12 +85,29 @@ section{
     padding: 10px;
     justify-content: center;
 }
+p{
+    padding: 5px;
+}
 #headshot{
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    align-content:flex-end;
+    padding: 5px;
     width: 250px;
     height: 220px;
-    border-radius: 50%; 
-    background-color: blue; 
+
+}
+
+#bio{
+    align-content: flex-start;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+background-size
+
+        footer{
+        
+            height: 75px;
+           
+        }
 }
