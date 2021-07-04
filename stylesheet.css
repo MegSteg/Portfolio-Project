@@ -150,7 +150,7 @@ p{
 }
 
 
-@media (min-width: 992p)(max-width:1400p) {
+@media (min-width: 992 max-width:1400p) {
         footer{
             height: 75px;
         }
